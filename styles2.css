@@ -1,0 +1,359 @@
+
+.top1{
+    width: 600px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 25%;
+    background-color: rgb(32,173,94);
+    text-emphasis-color: white;
+}
+
+.left1{
+    width: 40px;
+    height: 300px;
+    position: fixed;
+    left: 0;
+    top: 25%;
+    background-color: rgb(32,173,94);
+    text-emphasis-color: white;
+}
+
+.right1{
+    width: 40px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    background-color: black;
+    text-emphasis-color: white;
+}
+
+.bottom1{
+    width: 600px;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+    background-color: rgb(32,173,94);
+}
+
+.top2{
+    width: 600px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 25%;
+    background-color: rgb(198,0,2);
+    text-emphasis-color: white;
+}
+
+.left2{
+    width: 40px;
+    height: 300px;
+    position: fixed;
+    left: 0;
+    top: 25%;
+    background-color: rgb(32,173,94);
+    text-emphasis-color: white;
+}
+
+.right2{
+    width: 40px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    background-color: black;
+    text-emphasis-color: white;
+}
+
+.bottom2{
+    width: 600px;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+    background-color: rgb(198,0,2);
+}
+
+.top3{
+    width: 600px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 25%;
+    background-color: rgb(247,98,6);
+    text-emphasis-color: white;
+}
+
+.right3{
+    width: 40px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    background-color: rgb(247,98,6);
+    text-emphasis-color: white;
+}
+
+.bottom3{
+    width: 600px;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+    background-color: rgb(247,98,6);
+}
+
+.top4{
+    width: 600px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 25%;
+    background-color: rgb(244,231,3);
+    text-emphasis-color: black;
+}
+
+.bottom4{
+    width: 600px;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+    background-color: rgb(244,231,3);
+}
+
+.topangry{
+    width: 600px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 25%;
+    background-color: rgb(198,207,161);
+    text-emphasis-color: white;
+}
+
+.topspy{
+    width: 600px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 25%;
+    background-color: rgb(198,207,161);
+    text-emphasis-color: white;
+}
+
+.leftartfire{
+    width: 40px;
+    height: 300px;
+    position: fixed;
+    left: 0;
+    top: 25%;
+    background-image: url('img-sq/fireleft.jpg'); 
+    text-emphasis-color: white;
+}
+
+.greenpourleft{
+    width: 40px;
+    height: 300px;
+    position: fixed;
+    left: 0;
+    top: 25%;
+    background-image: url('img-sq/greenpourleft.jpg'); 
+    text-emphasis-color: white;
+}
+
+.bottomangry{
+    width: 600px;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+    background-color: rgb(198,207,161);
+    text-emphasis-color: white;
+}
+
+.bottomangryfire{
+    width: 600px;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+    background-image: url('img-sq/firetop.jpg');
+    text-emphasis-color: white;
+}
+
+.bottomresearch{
+    width: 600px;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+    background-image: url('img-sq/greenpourtop.jpg');
+}
+
+.topbluepour{
+    width: 600px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 25%;
+    background-image: url('img-sq/bluepourtop.jpg');
+    text-emphasis-color: white;
+}
+
+.dircontainer{
+    width: 335px;
+    height: 320px;
+    position: fixed;
+    top: 25%;
+    left: 35%;
+    background-image: url('img-sq/00.jpg');
+}
+
+.dircontainer2{
+    width: 600px;
+    height: 250px;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    background-image: url('img-sq/CellBars4.jpg');
+}
+
+.eyeball1{
+    background-color: rgb(198,207,161);
+}
+
+.eyeball2{
+    background-color:  rgb(32,173,94);
+}
+
+.eyeball3{
+    background-color: black;
+}
+
+.eyeball4{
+    background-image: url('img-sq/39stepsbandw.jpg');
+}
+
+.canvas{
+    background-image: url('img-sq/39stepsbandw.jpg');
+    background-size: cover;
+}
+
+.background1{
+    background-image: url('img-sq/39stepsbandw.jpg');
+    width: 700px;
+    height: 480px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.background2{
+    background-image: url('img-sq/barbwire1.jpg');
+    width: 783px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.background3{
+    background-image: url('img-sq/barbwire1.jpg');
+    width: 783px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.blackcanvas{
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.blackcanvas2{
+    width: 1300px;
+    height: 500px;
+    top: 1px;
+    background-color: black;
+}
+
+.background4{
+    background-image: url('img-sq/papersteps.jpg');
+    width: 389px;
+    height: 519px;
+    margin: 0 auto;}
+
+.blackcanvas3{
+    width: 1350px;
+    height: 645px;
+    background-color: black;
+}
+
+.background5{
+    background-image: url('img-sq/MythText.jpg');
+    width: 352px;
+    height: 540px;
+    margin: 0 auto;}
+
+.background6{
+        background-image: url('img-sq/bridge.jpg');
+        width: 559px;
+        height: 559px;
+        margin: 0 auto;}
+
+.background7{
+    background-image: url('img-sq/thedoors.jpg');
+    width: 544px;
+    height: 426px;
+    margin: 0 auto;}
+
+.background8{
+    background-image: url('img-sq/RubiksAllSmall.jpg');
+    width: 319px;
+    height: 291px;
+    margin: 0 auto;
+}
+
+.redsquare {
+    width: 0px;
+    height: 0px;
+    border-radius: 50px;
+    border: 300px solid rgb(150,0,2);
+}
+
+.orangesquare {
+    width: 0px;
+    height: 0px;
+    border-radius: 50px;
+    border: 250px solid rgb(188,75,5);
+}
+
+.yellowsquare {
+    width: 0px;
+    height: 0px;
+    border-radius: 50px;
+    border: 200px solid rgb(186, 176, 1);
+}
+
+.greensquare {
+    width: 0px;
+    height: 0px;
+    border-radius: 50px;
+    border: 150px solid rgb(24,132,72);
+}
+
+.bluesquare {
+    width: 0px;
+    height: 0px;
+    border-radius: 50px;
+    border: 100px solid rgb(0,0,112);
+}
+
+.whitesquare {
+    width: 0px;
+    height: 0px;
+    border-radius: 50px;
+    border: 50px solid white;
+}

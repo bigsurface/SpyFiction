@@ -1,0 +1,181 @@
+body {
+    background: black;
+}
+
+.screen {
+    background: black;
+    height: 550px;
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
+}
+
+.screen2 {
+    background: gray;
+    height: 550px;
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
+}
+
+.circle {
+    background: white;
+    border-radius: 60px;
+    height: 120px;
+    position: absolute;
+    width: 120px
+}
+
+.circle-main {
+    left: -120px;
+    margin-top: -60px;
+    top: 50%;
+    animation: circle-slide 7.2s linear forwards;
+}
+
+.timeline {
+    display: block;
+    height: 120px;
+    margin-top: -60px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+    .step {
+        display: block;
+        float: left;
+        height: 120px;
+        margin: 0;
+        position: relative;
+        width: 200px;
+    }
+        .circle {
+            background: transparent;
+            position: absolute;
+            right: -60px;
+        }
+            
+        .circle-flash-1 {
+            animation: circle-flash 1s 0.8s;
+        }
+
+        .circle-flash-2 {
+            animation: circle-flash 1s 1.4s;
+        }
+
+        .circle-flash-3 {
+            animation: circle-flash 1s 2s;
+        }
+
+        .circle-flash-4 {
+            animation: circle-flash 1s 2.6s;
+        }
+
+        .circle-flash-5 {
+            animation: circle-flash 1s 3.2s;
+        }
+
+        .circle-scope{
+            background: white;
+            border-radius: 100px;
+            height: 200px;
+            position: absolute;
+            margin-left: 38%;
+            margin-top: 20%;
+            width: 200px;
+            text-align: center;
+            text-size-adjust: 200%;
+            text-justify: auto 0;
+            color: black;
+        }
+
+        .circle-scope2{
+            background: white;
+            border-radius: 100px;
+            height: 200px;
+            position: absolute;
+            margin-left: 38%;
+            margin-top: 20%;
+            width: 200px;
+            text-align: center;
+            text-size-adjust: 200%;
+            text-justify: auto 0;
+            color: black;
+        }
+
+        .bond{
+            background: black;
+            border-radius: 50px;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            margin-left: 42%;
+            margin-top: 24%;
+            color: white;
+            text-align: center;
+        }
+
+        .bottom2{
+            width: 600px;
+            height: 40px;
+            position: fixed;
+            bottom: 0;
+            left: 25%;
+            background-color: rgb(198,0,2);
+        }
+
+        .top4{
+            width: 600px;
+            height: 40px;
+            position: fixed;
+            top: 0;
+            left: 25%;
+            background-color: rgb(244,231,3);
+            text-emphasis-color: black;
+        }
+
+        .item{
+            text-align: center;
+        }
+
+        .item2{
+            text-align: center;
+            font: larger;
+        }
+
+        .item3{
+            left: 20%;
+            font: larger;
+            text-shadow: crimson;
+        }
+
+        .item4{
+            text-align: right;
+            font: larger;
+        }
+
+@keyframes circle-flash {
+    0% { background: white; }
+    100% { background: transparent; }
+}
+
+@keyframes circle-slide {
+    44% { 
+        transform: scale(1);
+        left: 940px; 
+    }
+    55%, 58% { 
+        transform: scale(3.92); 
+        left: 940px; 
+    }
+    100% {
+        transform: scale(3.92);
+        left: 540px;
+    }
+}
+
+@keyframes mymove {
+    0%   {top: 0px; background: red; width: 100px;}
+    100% {top: 200px; background: yellow; width: 300px;}
+  }
